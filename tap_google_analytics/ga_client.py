@@ -247,7 +247,6 @@ class GAClient:
                     'pageToken': pageToken,
                     'metrics': report_definition['metrics'],
                     'dimensions': report_definition['dimensions'],
-                    'segment': 'gaid::iRQySA6NToq59CwZujFk8g',
                 }]
             },
             quotaUser=self.quota_user
